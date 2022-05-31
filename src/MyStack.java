@@ -10,9 +10,11 @@ public class MyStack {
 
     }
 
-    public void pop(){
-//        stack[size - 1] = 0;
+    public int pop(){
+
+        int obj = stack[size-1];
         resizeForPop(size-1);
+        return obj;
     }
     private void resizeForPop(int newLength) {
         int[] newStack = new int[newLength];

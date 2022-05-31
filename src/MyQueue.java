@@ -9,8 +9,10 @@ public class MyQueue {
         queue[size-1] = element;
 
     }
-    public void poll(){
+    public String poll(){
+        String obj = queue[0];
         resizeForPoll(size-1);
+        return obj;
     }
     private void resizeForAdd(int newLength) {
         String[] newQueue = new String[newLength];

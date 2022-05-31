@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class Main {
     public static void main(String[] args) {
 //        MyQueue stack = new MyQueue();
@@ -13,7 +15,8 @@ public class Main {
 //        stack.push(2);
 //        stack.push(3);
 //        stack.push(4);
-//        stack.pop();
+//        int kiev=stack.pop();
 //        System.out.println(stack);
+//        System.out.println(kiev);
     }
 }
